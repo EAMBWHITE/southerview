@@ -71,9 +71,9 @@ const IndexPage = () => {
             <p>
               Crea la mejor <strong>Estrategia Financiera</strong> con nosotros
             </p>
-            <a href="#quienes">
+            {/* <a href="#quienes">
               <div className="cajaQS"> ¿Quiénes somos? </div>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="col-md-6 imgBanner">
