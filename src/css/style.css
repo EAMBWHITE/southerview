@@ -1,0 +1,261 @@
+font {
+  font-family: "Poppins";
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.bg-light .logoMenu {
+  width: 400px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #042652;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 170px;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .contactenos {
+  text-align: right;
+  width: 145px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #042652;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 110px;
+  text-align: center;
+}
+
+.navbar-light .navbar-collapse {
+  margin-bottom: -6%;
+}
+
+.navbar-light .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.textoBanner p {
+  font-size: 3rem;
+  color: #1bb1d1;
+}
+
+.textoBanner p strong {
+  color: #0a2041;
+}
+
+.textoBanner a {
+  text-decoration: none;
+}
+
+.textoBanner .cajaQS {
+  background-color: #1bb1d1;
+  width: 262px;
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 6px 0;
+}
+
+.imgBanner {
+  padding-right: 0;
+}
+
+.bloqueQH {
+  padding: 5% 6% 10%;
+  background-color: #f4f5f6;
+}
+
+.bloqueQH h2 {
+  color: #0a2041;
+  text-align: center;
+  padding-bottom: 1%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.bloqueQH .bordeTit {
+  border-top: 3px solid #1bb1d1;
+  margin: 0 auto;
+  width: 60px;
+  padding-bottom: 3%;
+}
+
+.bloqueQH p {
+  color: #56585b;
+  text-align: justify;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 8%;
+}
+
+.bloqueQH .Margin {
+  margin-top: 50px;
+}
+
+.bloqueQH .caja {
+  background-color: #1bb1d1;
+  border-radius: 20px;
+  text-align: center;
+  min-height: 295px;
+}
+
+.bloqueQH .caja img {
+  text-align: center;
+}
+
+.bloqueQH .caja p {
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 20px 20px 26px;
+}
+
+.bloqueContacto {
+  background-image: url("../images/bgContacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 115px;
+}
+
+.bloqueContacto .contacto {
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  margin: 30% 5% 12%;
+  padding: 8%;
+}
+
+.bloqueContacto .contacto .form-control {
+  background-color: #ebebeb;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.6rem;
+}
+
+.bloqueContacto .contacto .form-control::-webkit-input-placeholder {
+  color: #adabab;
+}
+
+.bloqueContacto .contacto .form-control:-ms-input-placeholder {
+  color: #adabab;
+}
+
+.bloqueContacto .contacto .form-control::-ms-input-placeholder {
+  color: #adabab;
+}
+
+.bloqueContacto .contacto .form-control::placeholder {
+  color: #adabab;
+}
+
+.bloqueContacto .contacto .btnEnviar {
+  text-align: left;
+}
+
+.bloqueContacto .contacto .btnEnviar .btn {
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  padding: 0 1.7rem;
+}
+
+.bloqueContacto .contacto .btn-primary {
+  background-color: #1bb1d1;
+  border-color: #1bb1d1;
+}
+
+/*mediaQuery*/
+@media only screen and (max-width: 800px) {
+  .navbar-light .navbar-collapse {
+    margin-bottom: 0;
+  }
+  .navbar-light .navbar-collapse li {
+    margin: 0 auto;
+    height: 56px;
+    border-bottom: 1px solid #f7f3f3;
+    width: 100%;
+  }
+  .navbar-light .navbar-collapse li:last-child {
+    border: none;
+  }
+  .navbar-light .navbar-brand .logoMenu {
+    width: 210px;
+  }
+  .navbar-light .navbar-nav {
+    margin-top: 10%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    width: auto;
+  }
+  .navbar-light .navbar-nav .contactenos {
+    text-align: center;
+    width: auto;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-size: 1.2rem;
+    width: auto;
+  }
+  .navbar-light .container-fluid {
+    padding-left: 10px;
+    padding-top: 6%;
+    padding-right: 20px;
+  }
+  .textoBanner p {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .textoBanner .cajaQS {
+    width: 100%;
+    margin: 8% 0 0%;
+  }
+  .cajaBanner {
+    z-index: 1000;
+  }
+  .imgBanner {
+    padding-left: 0;
+    margin-top: -105%;
+  }
+  .imgBanner img {
+    opacity: 0.2;
+    margin-top: 16%;
+  }
+  .bloqueQH p {
+    text-align: left;
+    font-size: 1.4rem;
+  }
+  .bloqueQH .jqMargin {
+    margin: 0 auto;
+  }
+  .bloqueQH .caja {
+    min-height: initial;
+  }
+  .bloqueQH .caja p {
+    font-size: 1.2rem;
+  }
+  .bloqueContacto {
+    background-image: none;
+    background-size: unset;
+    padding-bottom: 60px;
+  }
+  .bloqueContacto .contacto {
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/*@media (min-width: 751px) {
+    .bloqueContacto {
+        .contacto {
+            width: 480px;
+        }
+    }
+}*/
